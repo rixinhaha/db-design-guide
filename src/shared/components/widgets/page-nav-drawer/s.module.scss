@@ -1,0 +1,28 @@
+@import '../../../assets/styles/variables';
+
+.icon {
+  color: $black;
+  cursor: pointer;
+}
+
+.logo {
+  &Wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: $padding-sm;
+  }
+  
+  &Image {
+    height: auto;
+    width: 40px;
+  }
+  
+  &Text {
+    font-family: $widget-header-font;
+    margin: 0;
+    margin-left: 15px;
+  }
+}
+

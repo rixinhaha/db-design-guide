@@ -1,0 +1,62 @@
+@import '../../../assets/styles/media-breakpoints-mixins';
+@import '../../../assets/styles/variables';
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&display=swap');
+
+
+.headerWrapper {
+  display: flex;
+  height: 64px;
+  justify-content: flex-start;
+}
+
+.headerTitle {
+  color: $black;
+  flex-grow: 1;
+  font-family: $widget-header-font;
+  margin: 0;
+  text-align: center;
+
+  &MainText {
+    color: $blue-10;
+  }
+}
+
+
+.headerLogo {
+  &Wrapper {
+    align-items: center;
+    background-color: $gray-30;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    
+    @include media-md {
+      display: none;
+    }
+
+  }
+
+  &Image {
+    height: auto;
+    margin-left: $margin-sm;
+    width: 40px;
+  }
+
+  &Text {
+    font-family: $widget-header-font;
+    margin: 0;
+    margin-left: 15px;
+  }
+}
+
+.header {
+  background: $gray-10;
+  border-bottom: 1px solid $gray-40;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  @include media-md {
+    padding: 0 $padding-sm;
+  }
+}

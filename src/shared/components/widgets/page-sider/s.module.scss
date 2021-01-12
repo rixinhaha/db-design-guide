@@ -1,0 +1,9 @@
+
+@import '../../../assets/styles/variables';
+
+.sider {
+  background: $gray-20;
+  height: calc(100vh - 64px);
+  margin-top: 64px;
+  position: fixed;
+}

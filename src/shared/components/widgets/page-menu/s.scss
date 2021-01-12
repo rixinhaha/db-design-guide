@@ -1,0 +1,28 @@
+@import '../../../assets/styles/variables';
+
+.ant-menu-item-selected a {
+  border-color: none;
+  color: $blue-10;
+}
+
+.ant-menu-item a:hover {
+  color: $blue-10;
+}
+
+.ant-menu-inline .ant-menu-item::after {
+  border-right: 3px solid $blue-10;
+}
+
+.ant-menu-submenu > .ant-menu {
+  background: none;
+}
+
+.ant-menu-submenu-selected {
+  color: $blue-10;
+}
+
+.ant-menu-submenu-title {
+  &:hover {
+    color: $blue-10;
+  }
+}
