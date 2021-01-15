@@ -1,9 +1,9 @@
 import React from 'react';
 
-const PageTitle = ({ text }) => (
+const Paragraph = ({ text }) => (
   <div>
     <p>{text}</p>
   </div>
 );
 
-export default PageTitle;
+export default Paragraph;

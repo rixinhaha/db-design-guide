@@ -2,9 +2,9 @@
 
 
 .titleWrapper {
-  text-align: center;
+  text-align: start;
 }
 
 .title {
-  @include page-title;
+  @include page-paragraph-title;
 }

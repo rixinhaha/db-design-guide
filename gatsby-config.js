@@ -22,5 +22,8 @@ module.exports = {
     'gatsby-plugin-stylelint',
     'gatsby-plugin-antd',
     'gatsby-plugin-sass',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
+
   ],
 };

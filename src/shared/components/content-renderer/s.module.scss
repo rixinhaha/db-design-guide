@@ -1,0 +1,11 @@
+@import '../../../shared/assets/styles/mixins';
+
+.contentElements {
+  div {
+    text-align: start;
+
+    @include media-md {
+      text-align: center;
+    }
+  }
+}

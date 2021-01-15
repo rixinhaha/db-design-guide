@@ -1,0 +1,27 @@
+@import './variables';
+
+@mixin media-xs {
+  @media (max-width: 320px) { @content; }
+}  
+@mixin media-sm {
+  @media (max-width: 719px) { @content; }
+}
+@mixin media-md {
+  @media (max-width: 1023px) { @content; }
+}
+
+
+@mixin page-title {
+  font-size: $font-xl;
+  font-weight: 700; 
+}
+
+@mixin page-paragraph {
+  font-size: $font-md;
+  font-weight: 400;
+}
+
+@mixin page-paragraph-title {
+  font-size: $font-lg;
+  font-weight: 700;
+}
